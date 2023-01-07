@@ -1,0 +1,241 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+/*******TITLE********/
+
+
+#title {
+    background-color: #14C38E;
+    color: #fff;
+    position: relative;
+    text-align: left;
+}
+
+.title-image {
+    width: 80%;
+    margin-top: 0;
+    position: relative;
+
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
+.top-title {
+    color: #E3FCBF;
+    font-size: 3rem;
+}
+
+span {
+    text-decoration: underline #F2E7D5;
+}
+
+.download-button {
+    margin: 3rem 5% 0 0;
+    word-spacing: 1rem;
+}
+
+p {
+    color: #605c5c;
+}
+
+
+
+/* ***************navigation-bar**********************/
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+.nav-item {
+    padding: 0 10;
+}
+
+#tools {
+    margin: 10rem 1rem;
+}
+
+/**************Font awesome styles**************/
+
+.fa-html5 {
+    color: #FF5733;
+}
+
+.fa-html5:hover {
+    color: rgb(212, 20, 20);
+}
+
+.fa-css3-alt {
+    color: rgb(91, 91, 208);
+}
+
+.fa-css3-alt:hover {
+    color: blue;
+}
+
+.fa-bootstrap {
+    color: blue;
+}
+
+.fa-bootstrap:hover {
+    color: rgb(5, 5, 95);
+}
+
+
+/**********************Features Section*********************/
+
+
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-heading {
+    font-size: 2rem;
+    margin: 1.6rem 0;
+}
+
+/************************Testimonials section************************/
+
+#testimonials {
+    padding: 5% 10% 7%;
+    background-color: #14C38E;
+    color: rgb(57, 52, 52);
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+
+.instagram-link {
+    color: rgb(233, 76, 128);
+}
+
+.github-link {
+    color: rgb(49, 42, 42);
+}
+
+.linkdin-link {
+    color: rgb(80, 80, 198);
+    margin: 0 30px;
+}
+
+.github-link:hover {
+    color: whitesmoke;
+}
+
+.instagram-link:hover {
+    color: whitesmoke;
+}
+
+.linkdin-link:hover {
+    color: whitesmoke;
+}
+
+/*************************Press Section********************/
+
+#press {
+    background-color: #fff;
+    margin-top: 0;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 50px 50px;
+}
+
+
+/********************Pricing Section**********************/
+
+.contact-me {
+    border-radius: 25px;
+}
+
+.card-body {
+    color: #14C38E;
+}
+
+#pricing {
+    padding: 100px;
+    background-color: #F2E7D5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/*******************CTA Section******************/
+
+#cta {
+    background-color: #2b2a2a;
+    color: #E3FCBF;
+}
+
+.download-text {
+    padding: 90px;
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    margin: 0 2% 70px;
+    word-spacing: 1rem;
+}
+
+
+
+/*******************Footer Section*****************/
+
+
+
+.copyright-text {
+    padding-bottom: 0;
+    top: 20px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+
+#footer {
+    padding: 40px;
+}
+
+.footer-icon {
+    color: #222222;
+    word-spacing: 1.5rem;
+}
+
+
+/******************Media Query*****************/
+
+
+
+
+@media (max-width: 992px) {
+    body {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 50%;
+    }
+}
